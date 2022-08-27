@@ -6,8 +6,8 @@ Bullet points:
 - The green box you will find on the left represents VLAN 20.
 - VLAN 10's interface was configured with the following IP and IP submask on the switch: 192.168.0.1 255.255.240.0
 - VLAN 20's interface was configured with the following IP and IP submask on the switch: 172.16.0.1 255.255.240.0
-- There is link on interface GigabitEthernet 0/1 on the switch linking to Gigabit Ethernet 0/0/1 on the router.
-- On the router we have two sub interfaces on Gigabit Ethernet 0/0/1. 0/0/0.1 for VLAN 10, 0/0/0.2 for VLAN 20.
+- There is a link between the interface GigabitEthernet 0/1 on the switch and the interface Gigabit Ethernet 0/0/1 on the router.
+- On the router we have two sub interfaces on Gigabit Ethernet 0/0/1. 0/0/0.1 for VLAN 10, 0/0/0.2 for VLAN 20. (I've used trunking here)
 - The address of the router's sub interface Gigabit Ethernet 0/0/0.1 is 192.168.0.1
 - The address of the router's sub interface Gigabit Ethernet 0/0/0.2 is 172.16.0.1
 
