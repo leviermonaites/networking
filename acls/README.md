@@ -11,12 +11,14 @@ Bullet points:
 - Subinterfaces 0/0/0.1 and .3 on the router have an access-list each attached to it for the out (outbound packets) option
 
 Access lists on the router:
+```
 Extended IP access list vlan10
-    10 deny ip host 10.10.0.3 host 172.16.0.3 (4 match(es))
-    20 deny ip host 10.10.0.4 host 172.16.0.4 (1 match(es))
-    1000 permit ip any any (21 match(es))
+    10 deny ip host 10.10.0.3 host 172.16.0.3
+    20 deny ip host 10.10.0.4 host 172.16.0.4
+    1000 permit ip any any
 Extended IP access list vlan30
     10 deny ip host 172.16.0.3 host 10.10.0.3
     20 deny ip host 172.16.0.4 host 10.10.0.4
     1000 permit ip any any
-
+```
+![image of the project on packet tracer](acls.png)
