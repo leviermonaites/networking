@@ -5,3 +5,5 @@ Bullet points:
 - 192.168.0.4 was the IP handed out to the WebServer
 - ermonaites.com is configured as a domain in the DNS Server and its IP address is 192.168.0.4
 - www.ermonaites.com is an CNAME record pointing to ermonaites.com
+
+![Image showing the project on the Cisco Packet Tracer software](dns-servers.png)
