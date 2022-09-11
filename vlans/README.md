@@ -23,3 +23,5 @@ If you try to ping 172.16.0.4 (the IP address of a host on VLAN 20) using the pr
 - Switch forwards the response to the router.
 - Router forwards it back to the Switch.
 - Switch forwards it to the initial host.
+
+![Screenshot of the project on Cisco Packet Tracer](vlans.png)

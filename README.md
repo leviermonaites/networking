@@ -7,7 +7,7 @@ If you have some networking knowledge or you are studying about the subject, it 
 
 ## Projects summary
 - [Access Control List (ACL)](./acls)
-- [Domain Name Server (DNS)](./dns)
+- [Domain Name Server (DNS)](./dns-servers)
 - [Dynamic Host Configuration Protocol (DHCP)](./dhcp)
 - Network Address Translation (NAT) related concepts
   - Network address translation is a method of mapping an IP address space into another by modifying network address information in the IP header of packets while they are in transit across a traffic routing device. (Credits: [Wikipedia](https://en.wikipedia.org/wiki/Network_address_translation))
