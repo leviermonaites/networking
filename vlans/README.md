@@ -1,7 +1,10 @@
+## Concept
+A virtual LAN (VLAN) is a logical overlay network that groups together a subset of devices that share a physical LAN, isolating the traffic for each group. (Credits: [TechTarget](https://www.techtarget.com/searchnetworking/definition/virtual-LAN))
+
 ## VLANS
 In this project I show the communication between hosts connected to the same switch but on different VLANs through a router.
 
-Bullet points:
+## Bullet points:
 - The blue box you will find on the right represents VLAN 10. <br>
 - The green box you will find on the left represents VLAN 20.
 - VLAN 10's interface was configured with the following IP and IP submask on the switch: 192.168.0.1 255.255.240.0

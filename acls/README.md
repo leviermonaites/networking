@@ -1,4 +1,7 @@
-Bullet points:
+## Concept
+An access control list (ACL) is a list of rules that specifies which users or systems are granted or denied access to a particular object or system resource. Access control lists are also installed in routers or switches, where they act as filters, managing which traffic can access the network. (Credits: [TechTarget](https://www.techtarget.com/searchnetworking/definition/access-control-list-ACL))
+
+## Bullet points:
 - Each PC was named after its VLAN
 - Router is responsible for traffic across VLANs (through the interface Gigabit Ethernet 0/0/0)
 - There is a subinterface for each VLAN on the router
