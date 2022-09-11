@@ -4,10 +4,10 @@ Port overloading allows us to let many private hosts use the same public IP addr
 ## Bullet points
 - The Gateway's private hosts are all using the Gateway's public IP address (192.0.2.2)
 
-Screenshot of the project
-![Screenshot of the project made in Cisco Packet Tracer](port-overloading.png)
+Screenshot of the project <br>
+![](port-overloading.png)
 
-Router applying NAT to traffic coming from a private host
+Router applying NAT to traffic coming from a private host <br>
 ![](source-ip-translation-on-router.png)
 
 Here you can see that a private host is communicating with the internet using the Gateway's public IP address when the private host pings an external device.
